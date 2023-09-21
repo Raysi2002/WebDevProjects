@@ -16,7 +16,7 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .content{
-    margin: 270px 150px;
+    margin: 310px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,4 +38,11 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:medium;
 
+}
+.content .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color:blueviolet;
 }

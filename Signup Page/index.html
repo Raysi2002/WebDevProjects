@@ -13,17 +13,17 @@
     </div>
     <div class="content">
         <form action="successfulSignup.html">
-            <input placeholder="FIRST NAME" required  type="text" name="username" id="username"> 
+            <input placeholder="FIRST NAME" required="First Name required" oninvalid="this.setCustomValidity('Enter first name')"  oninput="this.setCustomValidity('')" type="text" name="username" id="username"> 
             <input placeholder="MIDDLE NAME" type="text">
             <input required placeholder="LAST NAME" type="text">
             <input placeholder="EMAIL" required  type="email" name="email" id="email">
             <input required placeholder="DATE OF BIRTH" type="date">
             <input placeholder="PASSWORD" required type="password" name="password" id="password"> 
-            <input required placeholder="CONFIRM PASSWORD" type="password" name="password" id="password">
+            <input required="Password required" placeholder="CONFIRM PASSWORD" type="password" name="password" id="password">
             <input placeholder="ADDRESS" required type="text">
             <input required placeholder="PHONE" type="number" id="phone">
             <input type="submit" name="Signup" id="Signup">
-            
+            <a class="login" href="Login.html"><h4>Already having account <br>Login here</h4></a>
         </form>
     </div>
 </body>

@@ -1,0 +1,28 @@
+body{
+    background-image:url(LofiBoy2.jpeg);
+    background-size: cover;
+}
+.loginPage{
+    background-image: url(pencilBackground.jpeg);
+    background-size: contain;
+    margin: 10%;
+    border-radius: 20pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:deeppink;
+    font-size: xx-large;
+    opacity: calc(.8);
+}
+.loginContent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.loginContent input{
+    border-radius: 20px;
+    padding: 1%;
+    font-size: medium;
+    color: black;
+}
