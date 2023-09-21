@@ -1,0 +1,28 @@
+body{
+    background-color: aliceblue;
+    background-image:url(pencilBackground.jpeg);
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.content input{
+    font-style:oblique;
+    padding: 10px 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    size-adjust:calc(40px);
+    border-width: 3px;
+    border-radius:calc(10%) ;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
