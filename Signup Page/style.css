@@ -17,14 +17,15 @@ body{
 }
 .content{
     margin: 310px 150px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     height: 50px;
 }
 .content input{
     font-style:oblique;
     padding: 10px 30px;
+    border: 5px solid green;
     box-sizing: border-box;
     size-adjust:calc(40px);
     border-width: 3px;
@@ -44,4 +45,20 @@ body{
     align-items: center;
     margin: auto;
     color:blueviolet;
+}
+.sel select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color:aliceblue;
+    border: 10px ;
+    border-radius: 2pc;
+    margin: 5px;
+    /* height: 2pc;
+    width: 1pc; */ */
+}
+.sel label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
