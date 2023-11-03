@@ -1,0 +1,35 @@
+body{
+    background-image: url(White_Backgrounf.jpeg);
+    background-size: cover;
+}
+.stage1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid gold;
+    border-radius: 1pc;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+.stage1 input{
+
+    margin: 5px;
+    border: 2px solid rgb(112, 145, 136);
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 19px;
+}
+.stHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    border: 5px solid gray;
+    border-radius: 1pc;
+    margin: auto;
+    width: 300px;
+    height:  80px;
+}
